@@ -308,7 +308,7 @@
                 <div class="content-subtitle">For More Information</div>
                 <div id="name1" contentEditable="true" spellcheck="false" class="inputEditable placeholderText">Name:</div>
                 <div id="email1" contentEditable="true" spellcheck="false" class="inputEditable placeholderText">Email:</div>
-                <div id="messag1" contentEditable="true" spellcheck="true" class="inputEditable placeholderText" style="height: 150px;">Message:</div>
+                <div id="messag1" contentEditable="true" spellcheck="true" class="inputEditable placeholderText" style="height: 150px;overflow: auto;">Message:</div>
                 <div id="send1" class="sendButton">Send <i class="material-icons" style="position: relative; top: 5px;">send</i></div>
             </div>
         </div>
@@ -433,8 +433,10 @@
 
             // Email Stuff
             $(".inputEditable").focus(function() {
-                $(this).removeClass("placeholderText");
-                $(this).html("");
+                if ($(this).hasClass("placeholderText")) {
+                    $(this).removeClass("placeholderText");
+                    $(this).html("");
+                }            
             });
             
             var numEmailsSent = 0;
