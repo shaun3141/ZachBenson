@@ -327,10 +327,10 @@
                 <div class="imgGallery">
                     <iframe src="image_gallery_iframe.html" style="width: 100%; height: 100%;"></iframe>
                 </div>
-                <img id="imageFullSize" class="materialboxed" style="position: absolute; left: -4000px;" src="">
             </div>        
         </div>
         
+        <img id="imageFullSize" class="materialboxed" style="position: absolute; left: -4000px;" src="">
         
         <!-- jQuery (necessary for Materialize's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -349,8 +349,8 @@
             });
             
             function clickImg(imageName) {
-                alert("Hello there");
                 $("#imageFullSize").attr("src",imageName);
+                $('.materialboxed').materialbox();
                 $("#imageFullSize").click();              
             }
         </script>
