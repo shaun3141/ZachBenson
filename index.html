@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Zach Benson</title>
+
+        <!--Body Font -->
+        <link href='https://fonts.googleapis.com/css?family=Exo:500' rel='stylesheet' type='text/css'>
+
+        <!-- Menu Font -->
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        
+        <!-- Materialize Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+        <style type="text/css">
+            body { 
+                font-family: 'Exo', sans-serif;
+                margin: 0;
+                background: url("footer_lodyas.png");
+                background-color: #444;
+                color: #fff;
+            }
+            
+            .row {
+                max-width: 1000px;   
+            }
+            
+            .nameFont1 {
+                font-family: 'Fontdiner Swanky', cursive;
+            }
+            
+            .nameFont2 {
+                font-family: 'Poiret One', cursive;
+            }
+            
+            .nameFont3 {
+                font-family: 'Bangers', cursive;
+            }           
+            
+            #header-wrapper {
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+                background-color: rgba(0,0,0,.3);
+                border-bottom: solid #444 3px;  
+            }
+            
+            #header {
+                width: 100%;
+                max-width: 1000px;
+                display: inline-block;   
+            }
+            
+            #title-img {
+                display: inline-block;
+                float: left;
+                font-size: 35px;
+                padding-top: 5px;
+            }
+            
+            #sections-wrapper {
+                display: inline-block;
+                float: right;  
+                font-size: 25px;
+                padding-top: 5px;
+            }
+            
+            .section-link {
+                display: inline-block;
+                padding-bottom: 3px;
+                margin: 5px;
+                border-radius: 2px;
+                border-bottom-style: solid;
+                border-width: 2px;  
+                cursor: pointer;
+                border-color: rgba(255,255,255,0);
+            }
+            
+            .section-link:hover, .section-link:active {
+                border-color: inherit;
+            }
+            
+            .slider .indicators .indicator-item.active {
+                background-color: #3399ff;
+            }
+            
+            
+            .header-row {
+                border-bottom: solid #fff;
+                text-align: center;
+            }
+            
+            .header-content {
+                font-size: 30px;
+                text-align: center;
+                position: relative;
+                padding: 0px 20px;
+                border-radius: 5px;
+                background-color: #444;
+                display: inline-block;
+                top: 27px;
+                border: #fff solid;   
+            }
+            
+            .content-subtitle {
+                font-size: 24px;
+                text-align: center;  
+                padding-top: 20px;
+            }
+            
+            .inputEditable {
+                padding: 5px;
+                background-color: #eee;
+                margin: 17px 20px;
+                color: #333;
+                border-radius: 5px;
+                border: 2px solid #666;   
+            }
+            
+            .placeholderText {
+                color: #888;
+                font-style: italic;   
+            }
+            
+            .sendButton {
+                text-align: center;
+                padding: 5px;
+                background-color: #ccc;
+                margin: 20px 20px;
+                cursor: pointer;
+                border-radius: 2px;
+                border: solid #ddd;
+                color: #000;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            
+            .sendButton:hover {
+                background-color: #ddd;   
+            }
+            
+            #referenceContainer {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            
+            .referenceContent {
+                max-width: 306px;
+                margin: 15px;
+                background-color: rgba(255,255,255,.1);
+                border-radius: 5px;
+                padding: 5px;
+                border: solid 2px #aaa;   
+            }
+            
+            .imgGalleryWrapper {
+                width: 100%;
+                max-width: 1000px;
+              /* whatever width you want */
+              display: inline-block;
+              position: relative;
+            }
+            .imgGalleryWrapper:after {
+              padding-top: 56.25%;
+              /* 16:9 ratio */
+              display: block;
+              content: '';
+            }
+            
+            .imgGallery {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                /* fill parent */
+                background-color: rgba(255,255,255,0);
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <header id="header-wrapper">
+            <div id="header">
+                <div id="title-img" class="nameFont2">
+                    Zach Benson
+                </div>
+                <div id="sections-wrapper" class="nameFont2">
+                    <div class="section-link">
+                        About Zach
+                    </div>
+                    <div class="section-link">
+                        Workshops
+                    </div>
+                    <div class="section-link">
+                        References
+                    </div>
+                    <div class="section-link">
+                        Photos & Videos
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div id="aboutZach" class="row" style="padding-top: 20px;">
+            <div class="col s12 m6">
+                <div class="slider">
+                    <ul class="slides">
+                      <li>
+                        <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xlf1/v/t34.0-12/12736248_808248102944_1425477470_n.jpg?oh=549d198b4be411306b9b20b68b3b63f2&oe=56D61B3E">
+                        <div class="caption center-align">
+                          <h3>Dancer</h3>
+                          <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xfl1/v/t34.0-12/12781943_808248142864_1209797945_n.jpg?oh=33b3f31f9edbb7400918fc5c34f37a26&oe=56D60521">
+                        <div class="caption right-align">
+                          <h3>Teacher</h3>
+                          <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xal1/v/t34.0-12/12784268_808248092964_1519344407_n.jpg?oh=55c9b36b968856e840af4140baf68cfe&oe=56D5D9EC">
+                        <div class="caption left-align">
+                          <h3>Influencer</h3>
+                          <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/260590_10205775119361581_7628819983496433027_n.jpg?oh=5dd6aeb59d0e00167e5974fe7d793cf9&oe=574B0585">
+                        <div class="caption right-align">
+                          <h3 style="color: #000;">Let's Talk</h3>
+                          <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col s12 m6" style="color: #fff;">
+                <h2>Hey, I'm Zach.</h2>
+                <h5>I'm an award-winning dancer who travels around the world teaching dance clinics. I've been a round 4 finalist on FOX TV's popular show "So You Think You Can Dance" and most recently, I've worked with Quest Crew on LMFAO's new music video poppin' bottles.</h5>
+                <h5>I'd love to work with you, whether it be teaching a clinic at your studio or something else, let's connect.</h5>
+            </div>
+        </div>
+        
+        <div class="row header-row">
+            <div class="header-content">
+                Workshops
+            </div>
+        </div>
+        
+        <div class="row" style="">
+            <div class="col s12 m4">
+                <div class="content-subtitle">Typical Offerings</div>
+                
+                <div style="font-weight: bold;font-size: 17px;border-bottom-style: groove;">Classes by Age Group</div>
+                <div>We often seperate this two hour class into ages 5-11 and then ages 12 and up. This class is taught for people of any experience, though I can tailor it for your specific studio as needed.</div>
+                
+                <div style="font-weight: bold;font-size: 17px;border-bottom-style: groove;">"So you think you can dance" experience</div>
+                <div>Ages 11 and up : Students go through a mock audition, choreography, just like the tv show. This class will teach them how to make good impressions on judges, freestyle, and improve their stage presence and performance.  Anyone is welcome to take it! All styles and Levels, but more for your competitive dancers.</div>
+
+            </div>
+            <div class="col s12 m4">
+                <div class="content-subtitle">Details and Availability</div>
+                Currently, I am teaching dance all over Asia. I will be headed back to America in mid-August and will be there until December. I have a 10 student minimum for dance clinics and pricing depends on the type of clinic offered. 
+                <br><br>
+                Please feel free to get in touch with me for more information about booking a clinic, pricing, and any other questions you may have by using the form on the right.
+            </div>
+            <div class="col s12 m4">
+                <div class="content-subtitle">For More Information</div>
+                <div id="name1" contentEditable="true" spellcheck="false" class="inputEditable placeholderText">Name:</div>
+                <div id="email1" contentEditable="true" spellcheck="false" class="inputEditable placeholderText">Email:</div>
+                <div id="messag1" contentEditable="true" spellcheck="true" class="inputEditable placeholderText" style="height: 150px;">Message:</div>
+                <div id="send1" class="sendButton">Send <i class="material-icons" style="position: relative; top: 5px;">send</i></div>
+            </div>
+        </div>
+        
+        <div class="row header-row">
+            <div class="header-content">
+                References
+            </div>
+        </div>
+        
+        <div class="row" style="padding-top: 20px; text-align: center;">
+            <div>I've brought my energetic and unique clinics to over 100 dance studios already, here is what they had to say:</div>
+            
+            <div id="referenceContainer">
+                <div class="referenceContent">Zach came to teach workshops at my school in Phnom Penh in 2015, his classes where jam packed of local and expatriate dancers all wanting to learn how to dance as well as he does! He really cared about each dancer in the room on an individual level. Zach gave advice to our dancers also on audition processes and what judges on shows like SYTYCD are looking for. We all really had a great time, and I would book him again to dance with us in a heartbeat.
+                    <br>-Laura Joy Kiddle
+                    <br><a href="http://www.danceworldcambodia.com">www.danceworldcambodia.com</a>
+                </div>
+                <div class="referenceContent">Zach Benson is a great inspirational teacher and choreographer to students of all ages.  His passion for dance shines through every aspect of his teaching.  His energy to enhance the dance ability in everyone he teaches is a gift.  I encourage all dancers, to take a class with Zach to not only learn great skills in dance, but to also have a memorable experience with an amazing artist of dance!
+                    <br>-Jenn Channon 
+                    <br><a href="http://www.expressyourselfperformingedge.com">www.expressyourselfperformingedge.com</a>
+                </div>
+                <div class="referenceContent">Zach came to teach workshops at my school in Phnom Penh in 2015, his classes where jam packed of local and expatriate dancers all wanting to learn how to dance as well as he does! He really cared about each dancer in the room on an individual level. Zach gave advice to our dancers also on audition processes and what judges on shows like SYTYCD are looking for. We all really had a great time, and I would book him again to dance with us in a heartbeat.
+                    <br>-Laura Joy Kiddle
+                    <br><a href="http://www.danceworldcambodia.com">www.danceworldcambodia.com</a>
+                </div>
+                <div class="referenceContent">Zach Benson is a great inspirational teacher and choreographer to students of all ages.  His passion for dance shines through every aspect of his teaching.  His energy to enhance the dance ability in everyone he teaches is a gift.  I encourage all dancers, to take a class with Zach to not only learn great skills in dance, but to also have a memorable experience with an amazing artist of dance!
+                    <br>-Jenn Channon 
+                    <br><a href="http://www.expressyourselfperformingedge.com">www.expressyourselfperformingedge.com</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row header-row">
+            <div class="header-content">
+                Photos & Videos
+            </div>
+        </div>
+        
+        <div class="row" style="padding: 20px;">
+            <div class="imgGalleryWrapper">
+                <div class="imgGallery">
+                    <iframe src="image_gallery_iframe.html" style="width: 100%; height: 100%;"></iframe>
+                </div>
+            </div>        
+        </div>
+        
+        
+        <!-- jQuery (necessary for Materialize's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <!-- Materialize JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+              $('.slider').slider({full_width: true, interval: 3000});
+            });
+            
+            $(".inputEditable").focus(function() {
+                $(this).removeClass("placeholderText");
+                $(this).html("");
+            });
+            
+            var clickImg = new function(imageName) {
+                alert("Hello there");   
+            }
+        </script>
+    </body>
+</html>
