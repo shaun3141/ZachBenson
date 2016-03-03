@@ -1,1 +1,1 @@
-Hello, World! Why is Github being silly?
+I've known Zach for almost 10 years now, we actually met when I was in 8th grade, though I think he was already in college then. Zach is a very upbeat person who loves talking to people and sharing experiences. When he approached me and let me know he wanted a website, I was excited to build him one that would really bolster his personal brand and really just have it be a place he could proudly show people and get more leads for his dance clinics.
