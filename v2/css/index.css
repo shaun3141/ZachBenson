@@ -1,7 +1,7 @@
 body { 
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background: url("../crossword.png");
+    background: url("crossword.png");
     background-color: #eee;
     color: #333;
 }
@@ -27,12 +27,12 @@ a {
 }           
 
 #header-wrapper {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    background-color: rgba(53,151,255,.3);
-    border-bottom: solid #39f 3px;  
-    font-weight: bold;
+    background: url("../img/site_cover_bw.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 99vh; 
 }
 
 #header {
